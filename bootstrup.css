@@ -1,0 +1,136 @@
+/* bootstrup button css hover start */
+
+.wrapper .btn-read{
+    margin: 4px 0 0px 0px;
+   }
+   
+   .btn-read {
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      padding: 15px 30px;
+      overflow: hidden;
+      z-index: 1;
+      color: #fff;
+      background-color: #169d82;
+      border: none;
+      font-weight: 600;
+   }
+   .btn--animated:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(15, 180, 224);
+     transform: scaleX(0);
+     transform-origin: 0 50%;
+     transition-property: transform;
+     transition-duration: 2s;
+     transition-timing-function: ease-out;
+     z-index: -1;
+   }
+   .btn--animated:hover {
+     color: #fff;
+   }
+   .btn--animated:hover:before {
+     transform: scaleX(1);
+     transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+   }
+ /* bootstrup button css hover start */
+
+ /*************************
+        button work smarter section start
+*************************/
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    border: 0px solid transparent;
+    background: #7aa93c none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+    padding: 18px 20px;
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -ms-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -ms-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(15, 180, 224);
+    -ms-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -ms-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -ms-transition-property: transform;
+    -moz-transition-property: transform;
+    -o-transition-property: transform;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -ms-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    color: #ffffff;
+}
+
+.button:hover:before,
+.button:focus:before,
+.button:active:before {
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -moz-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    -ms-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.50);
+}
+
+/*************************
+        button work smarter section end
+*************************/
+

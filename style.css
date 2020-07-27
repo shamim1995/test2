@@ -1,0 +1,657 @@
+*{
+    margin:0 ; padding: 0;
+}
+img{
+    max-width:100%;
+}
+.container{
+    width:1170px;
+    margin:0 auto
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align:left;
+}
+.text-right{
+text-align: right;
+}
+
+
+/*.mainMenu css start*/
+
+.envatoLogo img {
+    width: 45px;
+    margin: 0px;
+    margin-top: 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+.envatoLogo {
+    width: 80px;
+    display: inline;
+    margin-left: 32px;
+    position: relative;
+}
+.envato_nav_button {
+    float: right;
+    /* padding: 10px 10px; */
+    color: white;
+    /* background: black; */
+    margin-right: 66px;
+}
+
+.mainMenu {
+    background: #191919;
+    position: relative;
+    padding: 5px;
+}
+.envatoLogo span {
+    color: #81b441;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+
+
+.envatoLogo span:before {
+    content: "envato";
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: -2px;
+    }
+    .envato_nav_button button a {
+    text-decoration: none;
+    color: white;
+}
+
+.envato_nav_button button {
+    background: #191919;
+    border: none;
+    padding: 13px 15px;
+}
+
+.envato_nav_button button:hover {
+    background: black;
+}
+
+/*mainMenu css End*/
+
+
+/*menuSection css start*/
+
+.menuSection ul li {
+    float: left;
+    padding: 0px 9px;
+    list-style: none;
+}
+.menuSection ul {
+    margin: 0px 35px;
+}
+
+.menuSection ul li:hover {
+    color: white;
+}
+.menuSection ul li span:hover {
+    color: white;
+}
+
+.menuSection ul li a {
+    text-decoration: none;
+    
+}
+
+.menuSection ul li span {
+    padding: 3px;
+    color: gray;
+}
+
+.menuSection ul li a img {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.menuSection {
+    background: #333333;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/* menuSection css End */
+
+/* bannerSection  css start */
+.bannerSection.banner_bg{
+    
+background-image: url('images/banner_bg.jpg');
+    
+background-size: cover;
+    
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+width: 100%;
+    
+/* position: relative; */
+    
+height: 477px;
+}
+.bannerSection.banner_bg h1 {
+    color: white;
+    padding-top: 43px;
+}
+.bannerSection.banner_bg h3 {
+    padding-top: 20px;
+    color: white;
+    font-family: serif;
+    width: 725px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.bannerSection.banner_bg h2 {
+    padding-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* ........................... */
+/* banner section button css start */
+.bannerSection_menu button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.bannerSection_menu button {
+    background:#e3e3e3 none repeat scroll 0 0;
+    width: 280px;
+    font-size: 25px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    margin-top: 51px;
+    margin-left: 102px;
+    position: relative;
+    z-index: 1;
+}
+.bannerSection_menu button i  {
+    font-size: 28px;
+    padding: 2px 5px;
+    color: black;
+}
+.bannerSection_menu ul li {
+    list-style: none;
+    margin-left: 0px;
+    border-bottom: 1px solid #3399FF;
+    padding: 5px 15px;
+    text-align: left;
+    margin: -1px;
+}
+
+.bannerSection_menu ul li a {
+
+color: black;
+
+text-decoration: none;
+
+font-size: 16px;
+}
+
+.bannerSection_menu ul li:hover {
+    background:#3399FF
+    
+}
+
+.bannerSection_menu button:hover {
+    background: gray;
+}
+.bannerSection_menu ul {
+    background: white;
+    position: absolute;
+    left: 0px;
+    display: none;
+    width: 280px;
+    border: 1px solid #3399FF;
+    top: 58px;
+}
+
+.bannerSection_menu button:hover ul {
+    display: block;
+   
+}
+/* banner section button css End */
+
+
+/* banner section search css start */
+.bannerInput {
+    margin-top: 50px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 282px;
+    border: none;
+    position: relative;
+}
+
+.bannerSection_menu {position: absolute;}
+
+.bannerInput input {
+    padding: 17px;
+    width: 287px;
+    position: relative;
+    border: 1px solid #3399ff;
+}
+
+.bannerInput span i {
+    position: absolute;
+    left: 90%;
+    top: 42%;
+    font-size: 20px;
+    color: #3399FF;
+}
+
+.bannerInput input:focus{
+    outline: none;
+}
+/* banner section search css End */
+
+
+/* bootstrup button css hover start */
+
+.wrapper .btn-read{
+    margin: 4px 0 0px 0px;
+   }
+   
+   .btn-read {
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      padding: 15px 30px;
+      overflow: hidden;
+      z-index: 1;
+      color: #fff;
+      background-color: #169d82;
+      border: none;
+      font-weight: 600;
+   }
+   .btn--animated:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(15, 180, 224);
+     transform: scaleX(0);
+     transform-origin: 0 50%;
+     transition-property: transform;
+     transition-duration: 2s;
+     transition-timing-function: ease-out;
+     z-index: -1;
+   }
+   .btn--animated:hover {
+     color: #fff;
+   }
+   .btn--animated:hover:before {
+     transform: scaleX(1);
+     transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+   }
+ /* bootstrup button css hover start */
+
+ /* services section css start */
+ .services_section_title {
+    margin-top: 37px;
+    font-family: sans-serif;
+    color: #191919;
+    margin-bottom: 42px;
+    z-index: 2;
+}
+
+.services_section_title.text-center h2 {
+    font-size: 40px;
+}
+.services_img img {width: 26px;height: 26px;border-radius: 100%;}
+
+.services_img span {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service_content p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.service_content p a:hover {
+    color: #2196F3;
+}
+
+.services_block {
+    text-align: center;
+    background: white;
+    z-index: 3;
+    margin-bottom: 30px;
+}
+.services_section {
+    background: #8080800d;
+}
+/* services section css End */
+
+/* services_social_image_block css start */
+
+.services_social_image_content {
+    text-align: center;
+}
+
+.services_social_image_block{
+    margin-bottom: 80px;
+}
+
+.services_social_image_content p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.services_social_image_content p a:hover {
+    color: #03A9F4;
+}
+/* services_social_image_block css End */
+
+/* testimonia section start */
+
+.testimonial_section_title {
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+
+.testimonial_section_title h3 {
+    font-size: 21px;
+    color: #fdf3a9;
+}
+
+.testimonial_section {
+    background: #7bc4c4;
+    padding-bottom: 35px;
+}
+
+.testimonial_image img {
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+.testimonial_image_content a {text-decoration: none;font-size: 25px;color: white;}
+
+.testimonial_image_content h4 {
+    font-size: 18px;
+    color: #fdf3a9;
+    font-family: serif;
+}
+
+.testimonial_image-content_block {
+    margin-top: 20px;
+}
+
+.testimonial_image_content p {
+    font-family: serif;
+    color: white;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.testimonial_image_content p a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fdf3a9;
+}
+.testimonial_image_content a {
+    text-decoration: none;
+}
+
+.testimonial_image_content a:hover {
+    color: white;
+}
+
+.testimonial_image_content p a:hover {
+    color: black;
+}
+
+.testimonial_button button {
+    background: black;
+    padding: 5px 15px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: serif;
+}
+/* testimonia section End */
+/* work smarter button start */
+.text-center.mt-5.pt-5.testimonialBtn a {
+    text-decoration: none;
+}
+
+.text-center.mt-5.pt-5.testimonialBtn .button:hover {
+}
+
+.text-center.mt-5.pt-5.testimonialBtn {
+    padding: 30px !important;
+    margin: 0px !important;
+}
+/* work smarter button End */
+
+/* work smarter section  start */
+
+.work_smarter_section {
+    background: #444444;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 42px;
+    padding-top: 20px;
+}
+
+.work_smarter_section h1 {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.work_smarter_section h4 {
+    color: #d8dddd;
+    font-weight: 600;
+}
+/* work smarter section css End */
+
+/* envatoMember section start */
+.envatoMember_image img {
+    width: 45px;
+    margin: 0px;
+    margin-top: 0px;
+    height: 45px;
+    padding: 10px;
+}
+
+.envatoMember_image {
+    width: 80px;
+    display: inline;
+    margin-left: 32px;
+    position: relative;
+    font-size: 26px;
+}
+.envatoMember_image span:before {
+    content: "envato";
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: -2px;
+}
+.envatoMember_section {
+    background: #333333;
+    position: relative;
+}
+
+.envatoMember_comunnity p {
+    color: #999;
+    display: inline-block;
+    /* padding: 10px; */
+    margin: 0px;
+}
+
+.envatoMember_comunnity span {
+    color: white;
+    margin-left: 20px;
+}
+
+.envatoMember_comunnity {
+    float: left;
+    width: 100%;
+    padding: 17px;
+}
+.envatoMember_image span {
+    color: #81b441;
+    margin-left: 69px;
+}
+.envatoMember__border_section {
+    border-bottom: 1px solid #fff3;
+    padding: 10px;
+}
+
+/* envatoMember section End */
+
+/* footer widget start */
+
+.footer_Widget_section h2 {
+    color: #999;
+    font-size: 25px;
+    padding: 6px;
+    font-family: serif;
+    margin-top: 15px;
+}
+
+.footer_Widget_section a {
+    color: white;
+    padding: 5px;
+    font-family: serif;
+}
+
+.footer_Widget_section {
+    background: #333333;
+    padding-bottom: 35px;
+}
+.footer_Widget_section a:hover {
+    color: white;
+}
+
+.footer_Widget_section i {
+    color: white;
+    padding: 10px;
+}
+.footer_Widget_section .facebook i {
+    width: 38px;
+    background: #3b5a9b;
+    height: 33px;
+    padding: 3px 14px 3px;
+    place-items: center;
+    line-height: 2;
+    border-radius: 3px;
+}
+.footer_Widget_section .google i {
+    width: 38px;
+    background: #dc4e41;
+    height: 33px;
+    padding: 3px 14px 3px;
+    place-items: center;
+    line-height: 2;
+    border-radius: 3px;
+}
+.footer_Widget_section .twitter i {
+    width: 38px;
+    background: #2b97f0;
+    height: 33px;
+    padding: 3px 14px 3px;
+    place-items: center;
+    line-height: 2;
+    border-radius: 3px;
+}
+.footer_Widget_section p {color: #999;}
+
+.footer_Widget_section input {
+    background: #191919;
+    border: none;
+    padding: 6px 15px;
+}
+
+.footer_Widget_section button {
+    padding: 7px 71px;
+    margin-top: 13px;
+    background: #6f9a37;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.footer_Widget_section p a {
+    color: #999;
+}
+
+.footer_Widget_section p a:hover {
+    color: #999;
+}
+.footer_Widget_section button:focus {
+    outline: none;
+}
+.footer_content_three_box_image img {
+    width: 200px;
+    float: left;
+    padding: 10px 15px;
+}
+
+.footer_content_three_box {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.footer_content_three_box p {
+    margin-top: 20px;
+    color: #999;
+    font-family: serif;
+    font-weight: 500;
+}
+
+.footer_content_three_box span {
+    color: white;
+}
+
+/* footer widget End */
+
+/* footer section start */
+.footer_section strong {
+    color: #999;
+    font-style: italic;
+    font-family: serif;
+}
+
+.footer_section {
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+/* footer section End */
